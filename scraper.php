@@ -6,7 +6,7 @@ $cars_parsed = 0;
 $cars_saved = 0;
 do { // loop through pages
     $page_counter++;
-    $pageurl = "http://www.autoscout24.es/ListGN.aspx?vis=1&state=A&atype=C&make=74&model=2084&fuel=D&kmto=500000&fregfrom=2010&pricefrom=1000&cy=E&page={$page_counter}&results=20&desc=True&ustate=N,U&sort=pubstart&mmvco=1&mmvmk0=74&mmvmd0=2084";
+    $pageurl = "http://www.autoscout24.ch/de/autos/audi?make=5&st=1&vehtyp=10&page={$page_counter}&results=20&desc=True&ustate=N,U&sort=pubstart&mmvco=1&mmvmk0=74&mmvmd0=2084";
 //    $pageurl = "http://www.autoscout24.es/ListGN.aspx?vis=1&state=A&atype=C&make=74&model=2084&fuel=D&kmto=500000&fregfrom=2010&pricefrom=1000&cy=E&page=200&results=20&desc=True&ustate=N,U&sort=pubstart&mmvco=1&mmvmk0=74&mmvmd0=2084";
     $html_data = scraperwiki::scrape($pageurl);
 
